@@ -5,13 +5,13 @@ using System.Text;
 namespace OOP_ShapesProject {
    public class Quad {
 
-       public int side1;
-       public int side2;
-       public int side3;
-       public int side4;
+       public double side1;
+       public double side2;
+       public double side3;
+       public double side4;
 
 
-        public int Perimeter() {
+        public double Perimeter() {
             return side1 + side2 + side3 + side4;
         }
 

@@ -5,17 +5,17 @@ using System.Text;
 namespace OOP_ShapesProject {
    public class Square2 {
 
-        private Rect rect;
+        private Quad quad;
 
         public int Perimeter() {
-            return rect.Perimeter();
+            return (int) quad.Perimeter();
         }
 
         public int Area() {
-            return rect.Area();
+            return (int)(quad.side1 * quad.side1);
         }
         public Square2 (int sides) {
-            rect = new Rect(sides, sides);
+            quad = new Quad(sides, sides, sides, sides);
 
         }
 
