@@ -3,10 +3,14 @@
 namespace OOP_ShapesProject {
     class Program {
         static void Main(string[] args) {
-            var quad1 = new Quad(5, 7, 13, 6);
+
+            var sqr2 = new Square2(5);
+            var p = sqr2.Perimeter();
+            var a = sqr2.Area();
+            Console.WriteLine($"The sqr2perimter is {p} and areas is {a}.");
 
 
-            
+            var quad1 = new Quad(5, 7, 13, 6);           
             var perimeter = quad1.Perimeter();
             Console.WriteLine($"The quad perimeter is {perimeter}.");
 
