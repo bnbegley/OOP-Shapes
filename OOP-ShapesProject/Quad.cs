@@ -5,10 +5,10 @@ using System.Text;
 namespace OOP_ShapesProject {
    public class Quad {
 
-       private int side1;
-       private int side2;
-       private int side3;
-       private int side4;
+       public int side1;
+       public int side2;
+       public int side3;
+       public int side4;
 
 
         public int Perimeter() {
@@ -21,6 +21,9 @@ namespace OOP_ShapesProject {
             this.side3 = side_c;
             this.side4 = side_d;
         }
+
+
+        
 
     }
 }
